@@ -1,0 +1,36 @@
+hr {
+    margin: 50px 0px;
+}
+
+footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+footer div {
+    display: flex;
+    flex-direction: column;
+}
+
+footer a {
+    margin: 10px 0px;
+    text-decoration: none;
+    color: black;
+}
+
+footer a:hover {
+    color: #02C774;
+}
+
+footer h3 {
+    text-transform: uppercase;
+}
+
+
+@media screen and (max-width: 800px) {
+    footer {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+  }

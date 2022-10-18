@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Norican&display=swap');
+
+h1.splash-txt span {
+    text-decoration: underline;
+}
+
+h3.splash-h3 {
+    text-align: center;
+    font-size: 38px;
+    font-style: italic;
+    border: 0.1px solid grey;
+    border-radius: 5px;
+    text-align: center;
+}
+
+p.splash-p {
+    background-color: #02C774;
+    padding: 15px;
+    font-size: 50px;
+    cursor: pointer;
+    margin: 0 35%;
+    text-align: center;
+
+}
+
+h1.splash-txt {
+
+    font-family: 'Norican', cursive;
+    font-size: 100px;
+    text-align: center;
+    animation: text-pop-up-top 1.2s ease 0s 1 reverse none;
+}
+
+@keyframes text-pop-up-top {
+    0% {
+        transform: translateY(0);
+        transform-origin: 50% 50%;
+        text-shadow: none;
+    }
+
+    100% {
+        transform: translateY(-50px);
+        transform-origin: 50% 50%;
+        text-shadow: 0 1px 0 #ccc, 0 2px 0 #ccc, 0 3px 0 #ccc, 0 4px 0 #ccc, 0 5px 0 #ccc, 0 6px 0 #ccc, 0 7px 0 #ccc, 0 8px 0 #ccc, 0 9px 0 #ccc, 0 50px 30px rgba(0, 0, 0, .3);
+    }
+}
+
+@media screen and (max-width: 800px) {
+
+    h3.splash-h3 {
+        font-size: 24px;
+    }
+
+    p.splash-p {
+        font-size: 20px;
+    }
+
+    h1.splash-txt {
+        font-size: 50px;
+    }
+
+
+
+}

@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Norican&display=swap');
+
+header {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+header h1 {
+    font-family: 'Norican', cursive;
+    margin-right: 50px;
+}
+
+.h1-2 {
+    display: none;
+}
+
+.navburger{
+    display: none;
+}
+
+header a {
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    margin-left: 10px;
+}
+
+header a.active {
+    border-top: 2px solid #02C774;
+    border-bottom: 2px solid #02C774;
+    color: #02C774;
+}
+
+a.cart-head.active {
+
+    opacity: 1;
+}
+
+header nav a:hover {
+    border-top: 2px solid #02C774;
+    border-bottom: 2px solid #02C774;
+    color: #02C774;
+    transition: all 0.3s ease;
+}
+
+.cart-head {
+    position: absolute;
+    right: 0;
+    opacity: 0.5;
+}
+
+
+@media screen and (max-width: 800px) {
+
+    .navmenu, .h1-1 {
+        display: none;
+    }
+    .h1-2 {
+        display: inline;
+        text-align: center;
+    }
+
+    .navburger{
+        display: inline;
+
+    }
+.navburgeritems{
+    flex-direction: column;
+    display: flex;
+    position: absolute;
+    background-color: #8fb1c8;
+    margin: 0;
+    padding: 0 100px 0 0;
+}
+
+.itemham{
+    font-size: 50px;
+}
+
+
+}
