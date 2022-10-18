@@ -1,10 +1,10 @@
 # Welcome to the Chalked Barcelona store
 
-This is a mock UI for an ecommerce store built using the React library. It fetches data from: https://fakestoreapi.com/products" and displays it to the user.
+This is a mock UI for an ecommerce store built using the React library. It fetches data from: https://fakestoreapi.com/products and displays it to the user.
 
 Users can select items they like by adding them to the cart. Items can be removed from cart / quantities can be changed.
 
-# Getting Started with Create React App
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
